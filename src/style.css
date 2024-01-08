@@ -1,0 +1,56 @@
+/* Ваш style.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0ffaa8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    max-width: 800px;
+    width: 100%;
+    background-color: #fdfffe;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 24px;
+    color: #333;
+    margin-top: 20px;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .round-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  .round-btn:hover {
+    background-color: #45a049;
+  }
+  
+  .donkey {
+    width: 500px;
+    height: 320px;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
